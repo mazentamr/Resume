@@ -1,0 +1,117 @@
+{
+  "main": {
+    "name": "Mazen Altamr",
+    "occupation": "Freelancer",
+    "description": "I eat, sleep and work React",
+    "image": "profilepic.jpg",
+    "bio": "Hi there! I am Mazen! , currently working as junior Front-end web developer , skilled in HTML , CSS , JavaScript and plus modern libraries and frameworks mainly (React.js),I am always improving my skills and learning new techniques and skills",
+    "contactmessage": "Get in touch with me ",
+    "email": "mazentamr261@gmail.com",
+    "phone": "+963 996612150",
+    "address": {
+      "street": "",
+      "city": "Damascus",
+      "state": "",
+      "zip": ""
+    },
+    "website": "",
+    "resumedownload": "http://papareact.com",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/profile.php?id=100020293773245",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/mazen-al-tamr-b857681b7/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/mazen_tamr/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/mazentamr",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "My Programming Language Proficiency",
+    "education": [
+      {
+        "school": "Yarmouk Private University",
+        "degree": "Bachelor's Degree, Software Engineers",
+        "graduated": "currently",
+        "description": ""
+      }
+    ],
+    "work": [
+      {
+        "company": "Freelancer",
+        "title": "Building web applications, web 2.0 ,web 3.0",
+        "years": "May 2020 - Present",
+        "description": "Cloning all the apps possible."
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "75%"
+      },
+      {
+        "name": "React Native",
+        "level": "70%"
+      },
+      {
+        "name": "Git",
+        "level": "60%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "90%"
+      },
+      {
+        "name": "Web Development",
+        "level": "95%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Movies-MT",
+        "category": "",
+        "image": "movies.png",
+        "url": "https://github.com/mazentamr/Movies-MT"
+      },
+      {
+        "title": "covid-19",
+        "category": "",
+        "image": "covid-19.png",
+        "url": "https://github.com/mazentamr/coved-19-Tracker"
+      },
+      {
+        "title": "game2084",
+        "category": "",
+        "image": "game2084.png",
+        "url": "https://github.com/mazentamr/2048-Game"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Mazen is absolutely excellent, his depth of knowledge & his mentorship really meant a lot to us... I would definitely recommend",
+        "user": "Jorge Fouto"
+      },
+      {
+        "text": "Learning with Sonny has been AWESOME, he makes learning React so easy and approachable, you'll finally feel like you know what's going on!",
+        "user": "Adam Curtis"
+      }
+    ]
+  }
+}
