@@ -17,9 +17,18 @@ const About = ({ data }) => {
   return (
     <section id="about">
       <div className="row">
-        <div className="three columns">
+        <div className="three columns" style={{
+         display:"flex",
+          justifyContent: "center",
+        }}>
           <img
-            className="profile-pic"
+            // className="profile-pic"
+            style={{
+              width: 114,
+              height: 114,
+              borderRadius: "50%",
+              // margin:0,
+            }}
             src={profilepic}
             alt="mazenT Profile Pic"
           />
