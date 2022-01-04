@@ -1,5 +1,6 @@
 import React from "react";
-import TypeWriter from "react-typewriter";
+import Typewriter from 'typewriter-effect';
+import Fade from 'react-reveal/Fade';
 
 const Header = ({ data }) => {
   if (data) {
@@ -19,7 +20,9 @@ const Header = ({ data }) => {
   }
 
   return (
-    <header id="home">
+    <header id="home" style={{
+      filter: "grayscale(0.2)",
+    }}>
       <nav id="nav-wrap">
         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
           Show navigation
@@ -64,12 +67,22 @@ const Header = ({ data }) => {
 
       <div className="row banner">
         <div className="banner-text">
-          <h1 className="responsive-headline">
-            <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
-          </h1>
-          <h3>
-            Based in {city}. <span>{occupation}</span>. {description}.
-          </h3>
+          <Fade bottom>
+            <h1 className="responsive-headline">
+              <Typewriter
+                options={{
+                  strings: [`I'm ${name}`, 'Web Develobrt 🚀'],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </h1>
+          </Fade>
+          <Fade bottom>
+            <h3>
+              Based in {city}. <span>{occupation}</span>. {description}.
+            </h3>
+          </Fade>
           <hr />
           <ul className="social">{networks}</ul>
         </div>
@@ -80,7 +93,7 @@ const Header = ({ data }) => {
           <i className="icon-down-circle"></i>
         </a>
       </p>
-    </header>
+    </header >
   );
 };
 

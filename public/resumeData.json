@@ -15,7 +15,7 @@
       "zip": ""
     },
     "website": "",
-    "resumedownload": "http://papareact.com",
+    "resumedownload": "CV.pdf",
     "social": [
       {
         "name": "facebook",
@@ -61,6 +61,10 @@
       {
         "name": "ReactJs",
         "level": "75%"
+      },
+      {
+        "name": "NextJs",
+        "level": "65%"
       },
       {
         "name": "React Native",

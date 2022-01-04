@@ -1,14 +1,17 @@
 import React from "react";
+import Fade from 'react-reveal/Fade';
 
 const Footer = ({ data }) => {
   if (data) {
     var networks = data.social.map(function (network) {
       return (
-        <li key={network.name}>
-          <a href={network.url}>
-            <i className={network.className}></i>
-          </a>
-        </li>
+        <Fade bottom>
+          <li key={network.name}>
+            <a href={network.url}>
+              <i className={network.className}></i>
+            </a>
+          </li>
+        </Fade>
       );
     });
   }

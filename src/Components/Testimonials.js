@@ -1,15 +1,18 @@
 import React from "react";
+import Fade from 'react-reveal/Fade';
 
 const Testimonials = ({ data }) => {
   if (data) {
     var testimonials = data.testimonials.map(function (testimonials) {
       return (
-        <li key={testimonials.user}>
-          <blockquote>
-            <p>{testimonials.text}</p>
-            <cite>{testimonials.user}</cite>
-          </blockquote>
-        </li>
+        <Fade bottom>
+          <li key={testimonials.user}>
+            <blockquote>
+              <p>{testimonials.text}</p>
+              <cite>{testimonials.user}</cite>
+            </blockquote>
+          </li>
+        </Fade>
       );
     });
   }
