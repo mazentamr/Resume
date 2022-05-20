@@ -87,6 +87,12 @@
   "portfolio": {
     "projects": [
       {
+        "title": "Hr Vaction System",
+        "category": "",
+        "image": "vaction.png",
+        "url": ""
+      },
+      {
         "title": "Movies-MT",
         "category": "",
         "image": "movies.png",
@@ -113,7 +119,7 @@
         "user": "Jorge Fouto"
       },
       {
-        "text": "Learning with Sonny has been AWESOME, he makes learning React so easy and approachable, you'll finally feel like you know what's going on!",
+        "text": "Learning with Mazen has been AWESOME, he makes learning React so easy and approachable, you'll finally feel like you know what's going on!",
         "user": "Adam Curtis"
       }
     ]

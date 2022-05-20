@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Zoom from 'react-reveal/Zoom';
+// import Zoom from 'react-reveal/Zoom';
 
 const Contact = ({ data }) => {
   const [name, setName] = useState("");
@@ -30,7 +30,7 @@ const Contact = ({ data }) => {
 
   return (
     <section id="contact">
-      <Zoom>
+      {/* <Zoom> */}
         <div className="row section-head">
           <div className="two columns header-col">
             <h1>
@@ -136,7 +136,7 @@ const Contact = ({ data }) => {
             </div>
           </aside>
         </div>
-      </Zoom>
+      {/* </Zoom> */}
     </section>
   );
 };

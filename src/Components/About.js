@@ -1,5 +1,4 @@
 import React from "react";
-import Fade from 'react-reveal/Fade';
 
 
 const About = ({ data }) => {
@@ -18,7 +17,6 @@ const About = ({ data }) => {
   return (
     <section id="about">
       <div className="row">
-        <Fade bottom>
           <div className="three columns" style={{
             display: "flex",
             justifyContent: "center",
@@ -35,8 +33,7 @@ const About = ({ data }) => {
               alt="mazenT Profile Pic"
             />
           </div>
-        </Fade>
-        <Fade bottom>
+       
           <div className="nine columns main-col">
             <h2>About Me</h2>
 
@@ -56,16 +53,16 @@ const About = ({ data }) => {
                   <span>{email}</span>
                 </p>
               </div>
-              <div className="columns download">
+              {/* <div className="columns download">
                 <p>
                   <a href={resumeDownload} className="button" download>
                     <i className="fa fa-download"></i>Download Resume
                   </a>
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
-        </Fade>
+        
       </div>
     </section>
   );
