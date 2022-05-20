@@ -7,7 +7,6 @@ import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import Testimonials from "./Components/Testimonials";
 import Portfolio from "./Components/Portfolio";
-import Particles from "react-tsparticles";
 
 import "./App.css";
 
@@ -21,18 +20,6 @@ const App = () => {
         setResumeData(data);
       });
   }, []);
-  const particlesInit = async (main) => {
-    console.log(main);
-
-    // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
-    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-    // starting from v2 you can add only the features you need reducing the bundle size
-    // await loadFull(main);
-  };
-
-  const particlesLoaded = (container) => {
-    console.log(container);
-  };
 
   return (
     <div className="App">
