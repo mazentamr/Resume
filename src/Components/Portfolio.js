@@ -56,7 +56,7 @@ const Portfolio = ({ data }) => {
                   spaceBetween: 40,
                 },
                 1024: {
-                  slidesPerView: 3,
+                  slidesPerView: 3  ,
                   spaceBetween: 50,
                 },
               }}
